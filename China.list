@@ -1,0 +1,48 @@
+# NAME: China
+# DESC: Supplementary Rules for Mainland China Domains
+
+# ==================== 中国四大行及主流商业银行 ====================
+DOMAIN-SUFFIX,icbc.com.cn,DIRECT       # 工商银行
+DOMAIN-SUFFIX,boc.cn,DIRECT            # 中国银行
+DOMAIN-SUFFIX,ccb.com,DIRECT           # 建设银行
+DOMAIN-SUFFIX,abchina.com,DIRECT       # 农业银行
+DOMAIN-SUFFIX,cmbchina.com,DIRECT      # 招商银行
+DOMAIN-SUFFIX,bankcomm.com,DIRECT      # 交通银行
+DOMAIN-SUFFIX,spdb.com.cn,DIRECT       # 浦发银行
+DOMAIN-SUFFIX,pingan.com,DIRECT        # 平安银行/平安证券
+DOMAIN-SUFFIX,cib.com.cn,DIRECT        # 兴业银行
+DOMAIN-SUFFIX,citicbank.com,DIRECT     # 中信银行
+
+# ==================== 大陆头部头部券商 ====================
+DOMAIN-SUFFIX,citics.com,DIRECT        # 中信证券
+DOMAIN-SUFFIX,htsec.com,DIRECT         # 海通证券
+DOMAIN-SUFFIX,gtja.com,DIRECT          # 国泰君安
+DOMAIN-SUFFIX,huatai.com,DIRECT        # 华泰证券 / 涨乐财富通
+DOMAIN-SUFFIX,cicc.com,DIRECT          # 中金公司 (CICC)
+DOMAIN-SUFFIX,eastmoney.com,DIRECT     # 东方财富 / 东方财富证券
+DOMAIN-SUFFIX,10jqka.com.cn,DIRECT     # 同花顺 (行情/交易)
+DOMAIN-SUFFIX,ths.com.cn,DIRECT        # 同花顺
+DOMAIN-SUFFIX,hexin.cn,DIRECT
+DOMAIN-SUFFIX,touzime.com,DIRECT
+DOMAIN-SUFFIX,chinastock.com.cn,DIRECT
+
+
+# ==================== 金十数据及旗下相关域名 ====================
+DOMAIN-SUFFIX,jin10.com,DIRECT        # 官方主站及 API 接口 (www.jin10.com, xnews.jin10.com 等)
+DOMAIN-SUFFIX,jiaoyixia.com,DIRECT     # 金十旗下交易侠客户端/Web版
+DOMAIN-SUFFIX,talk.jin10.com,DIRECT    # 金十社区/直播接口
+
+# ==================== 雪球 (Xueqiu) 规则列表 ====================
+DOMAIN-SUFFIX,xueqiu.com,DIRECT       # 雪球主站、社区、API 接口
+DOMAIN-SUFFIX,xueqiu.com.cn,DIRECT    # 雪球官方备用域名
+DOMAIN-SUFFIX,xqcdn.com,DIRECT        # 雪球 CDN 静态资源（图片、脚本、APP 静态文件）
+DOMAIN-SUFFIX,xqimg.com,DIRECT        # 雪球社区图片及头像资源
+
+# Other
+DOMAIN-SUFFIX,dingtalk.com,DIRECT
+DOMAIN-SUFFIX,douyinpic.com,DIRECT
+DOMAIN-SUFFIX,qishui.com,DIRECT
+DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,zijieapi.com,DIRECT
+DOMAIN-SUFFIX,taobao.com,DIRECT
+DOMAIN-SUFFIX,umeng.com,DIRECT
