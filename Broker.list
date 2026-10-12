@@ -1,5 +1,5 @@
-# NAME: HK_Broker
-# DESC: HK/US broker services for Futu, Moomoo, Longbridge, Tiger Brokers, Snowball X, Interactive Brokers, and Schwab
+# NAME: Broker
+# DESC: HK/US broker services for Futu, Moomoo, Longbridge, Tiger Brokers, Snowball X, Interactive Brokers, Firstrade, and Schwab
 
 # Futu - core domains
 DOMAIN-SUFFIX,futu.link
@@ -196,9 +196,16 @@ DOMAIN,sandbox.snbsecurities.com
 # Interactive Brokers
 DOMAIN-SUFFIX,interactivebrokers.com
 DOMAIN-SUFFIX,interactivebrokers.com.hk
+DOMAIN-KEYWORD,interactivebrokers
 
-# US brokers - Schwab
+# Schwab
 DOMAIN-SUFFIX,schwab.com
 DOMAIN-SUFFIX,schwab.com.cn
 DOMAIN-SUFFIX,schwab.com.hk
 DOMAIN-SUFFIX,schwab.co.uk
+DOMAIN-KEYWORD,schwab
+
+# Firstrade
+DOMAIN-SUFFIX,firstrade.com
+DOMAIN-SUFFIX,firstrade.net
+DOMAIN-KEYWORD,firstrade

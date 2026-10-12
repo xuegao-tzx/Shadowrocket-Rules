@@ -13,6 +13,9 @@ DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-SUFFIX,cp4.cloudflare.com
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-WILDCARD,*mask*.apple-dns.net
+DOMAIN-WILDCARD,*mask*.icloud.com
+DOMAIN-WILDCARD,*siri*.apple.com
 
 # > ChatGPT
 DOMAIN-SUFFIX,chat.com
@@ -65,3 +68,32 @@ DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 DOMAIN,pplx-res.cloudinary.com
+
+# > Google
+# > > AI Studio
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+# > > Antigravity
+DOMAIN,antigravity.google
+DOMAIN,antigravity-unleash.goog
+# > > DeepMind
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+# > > Gemini
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN,ai.google.dev
+DOMAIN,bard.google.com
+DOMAIN,gemini.google.com
+# > > NotebookLM
+DOMAIN-KEYWORD,notebooklm.google
+# > > Search Labs
+DOMAIN-KEYWORD,labs.google
+
+# > Muse
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,muse.ai
