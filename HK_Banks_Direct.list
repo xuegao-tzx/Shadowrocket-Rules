@@ -6,6 +6,9 @@ URL-REGEX,^https?://www\.sc\.com/hk/
 DOMAIN,api.sc.com
 DOMAIN-SUFFIX,standardchartered.com.hk
 DOMAIN-KEYWORD,standardchartered-hk
+DOMAIN-SUFFIX,hsbc.com.hk
+# Shared AppDynamics endpoint used by HSBC HK apps; exact match limits spillover
+DOMAIN,mobile.eum-appdynamics.com
 
 # Traditional banks
 DOMAIN-SUFFIX,ccb.com.hk
