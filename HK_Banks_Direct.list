@@ -38,6 +38,8 @@ DOMAIN-SUFFIX,fubon.com
 DOMAIN-SUFFIX,citi.com.hk
 DOMAIN-SUFFIX,bankcomm.com.hk
 DOMAIN-SUFFIX,bodintl.com
+DOMAIN-SUFFIX,alipay.com.hk
+DOMAIN-SUFFIX,wise.com
 
 # Virtual banks
 DOMAIN-SUFFIX,za.group
