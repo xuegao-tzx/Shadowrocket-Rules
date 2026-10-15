@@ -28,8 +28,7 @@
 | 8 | 📲 电报消息 | PROXY |
 | 9 | 🐱 代码托管（GitHub、GitLab、Atlassian） | PROXY |
 | 10 | Ⓜ️ 微软服务 | PROXY |
-| 11 | 🏦 汇丰香港（含 Reward+） | DIRECT |
-| 12 | 🏦 其他香港银行 | DIRECT |
+| 12 | 🏦 香港银行 | DIRECT |
 | 13 | 📈 券商服务（富途 / moomoo / 长桥 / 老虎 / 雪盈 / 盈透 / 嘉信 / 第一） | PROXY |
 | 14 | 🍎 苹果推送 | PROXY |
 | 15 | 🍏 苹果服务 | DIRECT |
