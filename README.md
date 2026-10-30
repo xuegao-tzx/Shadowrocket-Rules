@@ -32,6 +32,7 @@
 | 8 | 📲 电报消息 | PROXY |
 | 9 | 🐱 代码托管（GitHub、GitLab、Atlassian） | PROXY |
 | 10 | Ⓜ️ 微软服务 | PROXY |
+| 11 | 🚫 广告拦截 | REJECT |
 | 12 | 🏦 香港银行 | DIRECT |
 | 13 | 📈 券商服务（富途 / moomoo / 长桥 / 老虎 / 雪盈 / 盈透 / 嘉信 / 第一） | PROXY |
 | 14 | 🍎 苹果推送 | PROXY |
@@ -49,6 +50,18 @@
 - `Apple.list` 基于 blackmatrix7 Apple 规则，并配套加载 `Apple_Domain.list`，补充 iCloud Photos / Apple CDN 直连域名
 - `Broker.list` 补充香港&美国券商：富途 / moomoo / 长桥 / 老虎 / 雪盈 / 盈透 / TradeUP / Schwab / Firstrade 证券域名及交易 IP 段
 - `HSBC_HK.list` 与 `HK_Banks_Direct.list` 收录香港银行网站及 App 服务域名
+
+## 合并来源
+
+除上述规则集外，配置还合并了 [iKuuu_V1_Config.conf](https://ikuuu.fyi/iKuuu_V1_Config.conf) 的以下内容：
+
+- 泄漏检测站点（ipleak / browserleaks / whoer / ip-api / surfsharkdns / speedtest）固定走代理，便于核对出口 IP 与 DNS 泄露
+- 广告拦截规则集（27 条），归入 `🚫 广告拦截` 策略组，可切到 `DIRECT` 一键关闭
+- Telegram 官方 DC IP 段本地兜底（91.108.4.0/22 等 5 段），不依赖远程规则集
+- 5 个显式走代理的国内 IP（61.160.148.90、221.228.32.13、106.74.25.198、183.192.65.101、124.236.16.201），已置于国内 IP 规则集与 `GEOIP,CN` 之前
+- `.cn` 域名兜底直连（`DOMAIN-SUFFIX,cn`），置于各服务规则集之后、境外规则之前
+
+未合并的部分：iKuuu 的苹果 / 微软规则（与本配置策略冲突，已保留本配置口径）、国内与国外域名大表（已被 `China.list` / `Global.list` 等规则集覆盖）、以及指向 iKuuu 订阅内部 UUID 策略组的 5 条规则（该策略组在本配置中不存在，firstrade 相关域名已由 `Broker.list` 覆盖）。
 
 ## License
 
