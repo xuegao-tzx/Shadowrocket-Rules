@@ -121,4 +121,6 @@ DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,hele.me
 DOMAIN-SUFFIX,minimax.cn
 DOMAIN-SUFFIX,hm.com
-IP-CIDR,222.186.21.83/32,no-resolve
+DOMAIN-SUFFIX,xcl.ink
+IP-CIDR,222.186.21.0/24,no-resolve
+IP-CIDR,95.169.26.0/24,no-resolve
