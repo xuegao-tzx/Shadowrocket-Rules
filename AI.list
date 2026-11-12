@@ -57,6 +57,17 @@ DOMAIN,www.bing.com
 # > GitHub Copilot
 DOMAIN-SUFFIX,githubcopilot.com
 
+# > X SI
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-KEYWORD,grok,PROXY
+DOMAIN-KEYWORD,twitter
 
 # > OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
